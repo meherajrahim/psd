@@ -1,0 +1,104 @@
+/*font-family: 'Playfair Display', serif;*/
+/*font-family: 'Ubuntu', sans-serif;*/
+/*font-family: 'Inconsolata', monospace;*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+    font-family: 'Playfair Display', serif;
+    color:#626262;
+}
+/*header start*/
+header{
+	padding: 25px 0;
+}
+.container {
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+
+}
+.logo {
+	margin-top: 3px;
+	width: 13%
+	float:left;
+}
+.logo img{
+	width:%;
+}
+.menu {
+	width:70%;
+	float: right;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style:  none;
+	float: left;
+}
+.menu ul li a{
+	margin:  0 50px;
+	padding: 10px 0;
+	color:#626262;
+	text-decoration: none;
+	text-transform:uppercase;
+	display:inline-block;
+	transition: .3s;
+	border: 1px solid transparent;
+
+
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+.menu ul li a hover{
+	border-bottom:1px solid #626262;
+}
+
+/*header end*/
+/*banner start*/
+.banner{}
+.b_img{
+	width: 100%;
+}
+/*banner end*/
+
+/*Newsletter start*/
+.news_letter{
+  padding: 70px 0px;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+.news_letter h2 {
+  margin-bottom: 25px;
+  font-size: 30px;
+  font-weight: 400;
+  color: #333333;
+}
+
+.news_letter .input_box {
+  width: 400px;
+  margin: 0 auto;
+  position: relative;
+}
+.news_letter .input_box input {
+  width: 100%;
+  padding: 10px 5px;
+  font-family: "Playfair Display", serif;
+  font-size: 16px;
+  color: #626262 !important;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 1px solid #777;
+  display: inline-block;
+}
+
+.news_letter .input_box .send {
+  position: absolute;
+  right: -10px;
+  top: 15px;
+  cursor: pointer;
+}
+/*Newsletter end*/
